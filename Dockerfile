@@ -209,7 +209,7 @@ RUN echo @testing http://nl.alpinelinux.org/alpine/edge/testing >> /etc/apk/repo
     pip install -U certbot && \
     rm -Rf /etc/nginx/nginx.conf && \
     rm -Rf /usr/local/etc/php-fpm.conf && \
-    mkdir -p /data/ssl && \
+    mkdir -p /data/share/etc/ssl && \
     mkdir -p /data/logs/lnzt && \
     chown -R nginx:nginx /data
 
